@@ -1,0 +1,143 @@
+h1 {
+    color: rgb(234, 101, 53);
+  }
+
+.div-taller {
+    height: 500px;
+  }
+
+
+
+.contactus-text {
+    font-size: clamp(48px, 10vw, 128px); 
+    text-shadow: 3px 3px 0px #3CA181; 
+    text-align: left; 
+}
+
+.ourstory-text {
+    font-size: clamp(32px, 5vw, 64px); 
+    color: #AE312B;
+    text-align: center; 
+    margin-bottom: 40px;
+    margin-top: 0%;
+}
+
+.story-text {
+    font-size: clamp(16px, 2.5vw, 32px); 
+    line-height: 1.8; 
+    margin-top: 20px;
+    color: #AE312B;
+}
+
+.eatthis-text {
+    font-size: clamp(48px, 10vw, 128px);
+    color: #AE312B;
+    text-shadow: 5px 5px 0px #3CA181; 
+    text-align: center;
+    line-height: 1;
+}
+
+.line {
+    height: 8px;
+    width: 100%;
+    background-color: #AE312B;
+    margin-top: 100px;
+}
+
+.ourstory-photo {
+    height: 400px;
+    width: 800px;
+    background-image: url(../asset/ourstory2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Mermaid';
+    src: url('../assest/mermaid/Mermaid1001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.eatthis-font {
+    font-family: 'Mermaid', sans-serif;
+}
+
+.contact-us-box {
+    text-align: center; 
+    padding: 20px;      
+    font-size: 8vw;   
+    font-weight: 500; 
+    color: #AE312B;     
+}
+
+body {
+    font-family: 'Mermaid', sans-serif;
+}
+
+.form-control {
+    font-size: 20px; 
+    border-radius: 10px; 
+    padding: 10px 20px;
+}
+
+textarea {
+    resize: none; 
+}
+
+/* Background Color */
+
+.bg-primary {
+    background-color: blue;
+}
+
+
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-azure {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-yellow {
+    background-color: rgb(227, 218, 115);
+}
+
+.bg-burlywood {
+    background-color: #AE312B;
+}
+
+.bg-brown {
+    background-color: rgb(78, 47, 7);
+}
+
+.bg-purple {
+    background-color: rgb(157, 34, 171);
+}
+
+.bg-darkred {
+    background-color: rgb(101, 15, 15);
+}
+
+.bg-green {
+    background-color: #3CA181;
+}
+
+.bg-khaki {
+    background-color: rgb(196, 168, 84);
+}
+
+.bg-heeee {
+    background-color: #F4DFB2;
+}

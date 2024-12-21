@@ -1,0 +1,186 @@
+H1 {
+    color: rgb(76, 181, 19); 
+}
+
+
+.div-taller{
+    height:auto;
+}
+
+.bg-info {
+    background-color: transparent !important; /* 移除蓝色背景 */
+}
+
+body {
+    background-color: #fbe3c4; 
+}
+
+/*Testing colour start */
+
+.bg-purple{
+    background-color: blueviolet;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-green{
+    background-color: greenyellow;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-sisorange{
+    background-color: orangered;
+}
+
+.bg-sisblue{
+    background-color: aqua;
+}
+
+.bg-sisgreen{
+    background-color: aquamarine;
+}
+
+.bg-sisspurple{
+    background-color: orchid;
+}
+
+.bg-siswarm{
+    background-color: bisque;
+}
+
+.section-title {
+    color: #8B0000;
+    background-color:rgb(245, 237, 227);
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: "Inknut Antiqua", serif; 
+}
+
+.Rice-text{
+    font-size: 15px; 
+    color: #000000; 
+    font-weight: bold;
+}
+.Noodles-text{
+    font-size: 15px; 
+    color: #000000; 
+    font-weight: bold; 
+}
+.snack-text {
+    font-size: 15px; 
+    color: #000000; 
+    font-weight: bold; 
+  }
+.Beverages-text{
+    font-size: 15px; 
+    color: #000000; 
+    font-weight: bold; 
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px; /* 默认的左右填充 */
+    max-width: 2500px; /* 限制最大宽度 */
+    text-align: left; /* 内容左对齐 */
+}
+
+
+.div-taller-cover {
+   width: auto;
+    height: 65vh;
+    background-image: url('../asset/foodpymt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .info-card {
+    background-color:#8B0000; /* Matches your current section color */
+    color: white;
+    padding: 20px; /* Adds space inside the card */
+    margin: 0 auto; /* Centers the content */
+    max-width: 100%; /* Ensures responsiveness */
+    display: flex;
+    flex-wrap: wrap; /* Adjusts layout for small screens */
+    justify-content: space-between;
+}
+
+
+/* Individual sections inside the card */
+.info-card .details {
+    flex: 1 1 200px; /* Ensures sections are responsive */
+    margin: 10px;
+}
+
+.info-card h3 {
+    margin-bottom: 10px; /* Adds spacing between titles and content */
+}
+
+.info-card p {
+    margin: 0; /* Removes extra spacing below text */
+}
+.logo img {
+    width: 100px; /* 调整 logo 的大小 */
+    height: auto;
+    object-fit: contain;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap; /* 自动换行 */
+    gap: 20px; /* 子元素之间的间距 */
+    flex: 1; /* 占据剩余空间 */
+}
+
+.details > div {
+    flex: 1 1 calc(50% - 20px); /* 每个内容块占 50% 宽度，减去间距 */
+    min-width: 200px; /* 最小宽度，避免过窄 */
+}
+.navshoppingcart{
+    width: 25px;
+    height: 25px;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.row img {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.div-taller {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+* , ::after, ::before {
+    box-sizing: unset; 
+}
+

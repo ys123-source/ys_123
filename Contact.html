@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/c.styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+        font-family: 'Inknut Antiqua', serif;
+        }
+        .form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 15vh;           
+  }
+    </style>
+
+</head>
+
+<body>
+
+    <body class="bg-heeee">
+
+<div class="container " >
+    <!-- Row 1 -->
+    <div class="row bg-heeee div-taller" style="padding: 12px;">
+        <div class="col-sm-4 col-md-4 col-lg-12 text-white bg-heeee "></div>
+        <div class="col-sm-4 col-md-4 col-lg-12 bg-heeee contactus-text" style="padding-left: 40px; color: #AE312B; margin-bottom: 20px;">
+            Contact Us
+            <div class="line"></div>
+        </div>
+    </div>       
+
+     <!-- Row 2 -->
+     <div class="row bg-heeee div-taller" style="padding: 12px;margin-top: -80px;"> 
+        <div class=" col-12 col-sm-12 col-md-12 col-lg-4 bg-heeee ourstory-text" style="padding-left: 40px; color: #AE312B;">Our Story
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 bg-heeee story-text" style="padding-left: 40px; color: #AE312B;">
+            wwww<br>
+            wwwww<br>
+            wwww<br>
+            wwwww
+        </div></div>
+        <div class=" col-12 col-sm-12 col-md-12 col-lg-8 text-white bg-heeee ourstory-photo"></div>
+        <div class="row bg-heeee" style="padding: 12px;">
+            
+    </div>
+
+     <!-- Row 3 -->
+     <div class="align-items_center bg-heeee text-white div-taller" style="padding: 12px;height: 500px; ;"> 
+            <div class="col-sm-4 col-md-4 col-lg-12 bg-burlywood eatthis-text" style="padding-left: 40px; color: white; margin-top: 10px;">
+                <span class="eatthis-font">EAT THIS.<br>NOT THAT.</span>
+            </div>
+         </div>
+
+         
+         
+
+     <!-- Row 4 -->
+        <div class="container mt-5">
+        <div class=" col-sm-4 col-md-6 col-lg-12 bg-heeee contact-us-box" style="margin-top: -250px;"> Contact Us</div>
+
+        <div class="container">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">Email</label>
+                <input type="text" class="form-control" id="validationCustom02" value="xidian888@gmail.com" required>
+                <div class="valid-feedback">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustomUsername" class="form-label">Contact</label>
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustomMessage" class="form-label">Message</label>
+                <div class="input-group has-validation">
+                  <textarea class="form-control" id="validationCustomMessage" rows="4" required></textarea>
+                  <div class="invalid-feedback">
+                    Please provide a message.
+                  </div>
+                </div>
+              </div>
+                </div>
+              <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+              </div>
+           
+              <div class="col-12 text-center">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          
+          <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+           (() => {
+            'use strict'
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+          
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+              form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+          
+                form.classList.add('was-validated')
+              }, false)
+            })
+           })()
+          </script>

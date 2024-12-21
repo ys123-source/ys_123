@@ -1,0 +1,37 @@
+h1 {
+    color: rgb(234, 101, 53);
+  }
+
+.div-taller {
+    height: 500px;
+  }
+
+.rewards-text {
+    font-size: 48px;
+    border-radius: 58px; 
+    line-height: 2;    
+}
+
+.check-btn {
+    font-size: 48px;
+    border-radius: 39px;
+}
+
+
+/* Background Color */
+
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+
+.bg-burlywood {
+    background-color: #D0866D;
+}
+
+.bg-green {
+    background-color: #3CA181;
+}
+
+.bg-heeee {
+    background-color: #F4DFB2;
+}
